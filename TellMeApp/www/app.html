@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>挑米科技</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+
+    <!--ionic-->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet" />
+
+</head>
+<body ng-csp ng-app="tellme">
+    <ion-nav-view></ion-nav-view>
+
+    <!--js文件引用-->
+    <!--ionic-->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!--lazy-load-->
+    <script src="lib/ionic-image-lazy-load/ionic-image-lazy-load.js"></script>
+    <!--Cordova-->
+    <script src="cordova.js"></script>
+    <!--md5加密-->
+    <script src="lib/md5-min.js"></script>
+    <!--高德地图-->
+    <!--<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=61d7725b47777dec3358f22750a3ff33"></script>-->
+    <!--项目自带-->
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="app.js"></script>
+    <!--通用-->
+    <script src="app/util/app-config.js"></script>
+
+    <script src="app/start/start-ctrl.js"></script>
+    <!--菜单-->
+    <script src="app/menu/menu-ctrl.js"></script>
+
+    <!--服务指南-->
+    <script src="app/home/home-ctrl.js"></script>
+    <!--发现-->
+    <script src="app/discovery/list/list-ctrl.js"></script>
+    <!--入住-->
+    <script src="app/check/center/center-ctrl.js"></script>
+    <!--会员-->
+    <script src="app/member/center/center-ctrl.js"></script>
+
+</body>
+</html>
