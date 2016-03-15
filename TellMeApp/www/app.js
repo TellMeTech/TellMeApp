@@ -90,6 +90,10 @@
             .state('test', { url: '/test', templateUrl: 'app/test/test.html', controller: 'testControll' })
             //首次启动页面
             .state('start', { url: '/start', templateUrl: 'app/start/start.html', controller: 'startControll' })
+            //定位
+            .state('location', { url: '/location', templateUrl: 'app/map/location/location.html', controller: 'locationControll' })
+            //搜索
+            .state('search', { url: '/search', templateUrl: 'app/search/search.html', controller: 'searchControll' })
             //菜单
             .state('menu', { url: '/menu', templateUrl: 'app/menu/menu.html', controller: 'menuControll' })
                 //服务指南

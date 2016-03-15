@@ -1,2 +1,81 @@
-﻿body {
+﻿html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.tellme_main_bg {
+    background-color:#f9f9f7;
+}
+.tellme_fl {
+    float: left;
+}
+.tellme_cl {
+    clear: both;
+}
+.tellme_title_left {
+    width: 20%;
+    height: 100%;
+}
+.tellme_title_center {
+    width: 60%;
+    height: 100%;
+}
+.tellme_title_icon {
+    width: 32px;
+    height: 32px;
+}
+.tellme_title_txt {
+    font-size: 1em;
+    color: #4C4C4C;
+    line-height: 38px;
+}
+.tellme_title_blank{
+    width: 100%;
+    height: 44px;
+}
+.tellme_bottom_blank{
+    width: 100%;
+    height: 1em;
+}
+
+/**HOME**/
+.tellme_home_hotel_view {
+    width: 92%;
+    height: 13em;
+    margin-left: 4%;
+    margin-top: 1em;
+    border: 1px #f5f5f5 solid;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.tellme_home_hotel_img {
+    width: 96%;
+    margin-left: 2%;
+    height: 10em;
+    margin-top: 0.4em;
+}
+.tellme_home_hotel_txt {
+    font-size: 1em;
+    color: #000000;
+    line-height: 2em;
+}
+
+/**SEARCH**/
+.tellme_search_divider {
+    width: 100%;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin-top: 10px; 
+}
+.tellme_search_txt {
+    font-family: "微软雅黑";
+    font-size: 1em;
+    color: #4c4c4c;
+    line-height: 3em;
+}
+.tellme_search_history_view {
+    width: 100%;
+    height: 20em;
+    background-color: #EEEEEE;
 }
