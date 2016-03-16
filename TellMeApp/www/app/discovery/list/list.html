@@ -1,5 +1,27 @@
 ﻿<ion-view view-title="发现列表">
+    <div class="bar bar-header item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input type="search" placeholder="搜索">
+        </label>
+        <button class="button button-clear" ng-click="search()">
+            搜索
+        </button>
+    </div>
     <ion-content>
-        发现列表
+        <div class="tellme_discovery_main_view tellme_main_bg">
+            <div class="tellme_discovery_item_view" ng-click="toDetail(1);">
+                <div><img src="../../../images/temp/hotel.jpg" class="tellme_discovery_hotel_img" /></div>
+                <div><span class="tellme_discovery_info_txt">某某酒店是怎样的我就不多说了，我就不多说了，我就不多说了我就不多说了我就不多说了，我就不多说了.</span></div>
+            </div>
+            <div class="tellme_discovery_item_view" ng-click="toDetail(2);">
+                <div><img src="../../../images/temp/h2.jpg" class="tellme_discovery_hotel_img" /></div>
+                <div><span class="tellme_discovery_info_txt">某某酒店是怎样的我就不多说了，我就不多说了，我就不多说了我就不多说了我就不多说了，我就不多说了.</span></div>
+            </div>
+            <div class="tellme_discovery_item_view" ng-click="toDetail(3);">
+                <div><img src="../../../images/temp/h3.jpg" class="tellme_discovery_hotel_img" /></div>
+                <div><span class="tellme_discovery_info_txt">某某酒店是怎样的我就不多说了，我就不多说了，我就不多说了我就不多说了我就不多说了，我就不多说了.</span></div>
+            </div>
+        </div>
     </ion-content>
 </ion-view>

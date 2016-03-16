@@ -94,6 +94,12 @@
             .state('location', { url: '/location', templateUrl: 'app/map/location/location.html', controller: 'locationControll' })
             //搜索
             .state('search', { url: '/search', templateUrl: 'app/search/search.html', controller: 'searchControll' })
+            //发现详情
+            .state('discoveryDetail', { url: '/discoveryDetail?did', templateUrl: 'app/discovery/detail/detail.html', controller: 'discoryDetailController' })
+            //登录
+            .state('login', { url: '/login', templateUrl: 'app/check/login/login.html', controller: 'loginControll' })
+            //注册
+            .state('register', { url: '/register', templateUrl: 'app/check/register/register.html', controller: 'registerControll' })
             //菜单
             .state('menu', { url: '/menu', templateUrl: 'app/menu/menu.html', controller: 'menuControll' })
                 //服务指南
