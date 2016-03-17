@@ -12,6 +12,12 @@
 .tellme_cl {
     clear: both;
 }
+.tellme_ml2e {
+    margin-left: 2em;
+}
+.tellme_mt4e {
+    margin-top: 4em;
+}
 .tellme_title_left {
     width: 20%;
     height: 100%;
@@ -107,7 +113,6 @@
     width: 100%;
     height: 2em;
     margin-top: 44px;
-    background-color:#f9f9f7;
 }
 .tellme_check_center_search_panel {
     width: 80%;
@@ -163,4 +168,40 @@
     font-family: "微软雅黑";
     font-size: 1em;
     color: #FFFFFF;
+}
+
+/**SUPERMARKET**/
+.tellme_supermarket_content_left_view {
+    width: 14%;
+}
+.tellme_supermarket_content_right_view {
+    width: 84%;
+    background-color: #EEEEEE;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.tellme_supermarket_content_icon {
+    width: 3.6em;
+    height: 3.6em;
+}
+.tellme_supermarket_content_item_view {
+    width: 96%;
+    height: 10em;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tellme_supermarket_content_item_img_panel {
+    width: 50%;
+    height: 10em;
+}
+.tellme_supermarket_content_item_img {
+    width: 100%;
+    height: 100%;
+}
+.tellme_supermarket_divider {
+    width: 100%;
+    height: 1px;
+   background-color: #FFFFFF;
 }

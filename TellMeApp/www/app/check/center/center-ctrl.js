@@ -6,6 +6,7 @@
         }
 
         $scope.checkin = function () {
-            $state.go('login');
+            //$state.go('login');
+            $state.go('hotel');
         }
     }])

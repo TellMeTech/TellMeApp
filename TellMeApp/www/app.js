@@ -100,6 +100,14 @@
             .state('login', { url: '/login', templateUrl: 'app/check/login/login.html', controller: 'loginControll' })
             //注册
             .state('register', { url: '/register', templateUrl: 'app/check/register/register.html', controller: 'registerControll' })
+            //酒店
+            .state('hotel', { url: '/hotel', templateUrl: 'app/check/hotel/hotel.html', controller: 'hotelControll' })
+            //酒店banner
+            .state('hotelBanner', { url: '/hotelBanner', templateUrl: 'app/check/hotel/banner.html', controller: 'hotelBannerControll' })
+            //酒店超市
+            .state('hotelSupermarket', { url: '/hotelSupermarket', templateUrl: 'app/check/hotel/supermarket.html', controller: 'hotelSupermarketControll' })
+            //酒店商品
+            .state('hotelProduct', { url: '/hotelProduct', templateUrl: 'app/check/hotel/product.html', controller: 'hotelProductControll' })
             //菜单
             .state('menu', { url: '/menu', templateUrl: 'app/menu/menu.html', controller: 'menuControll' })
                 //服务指南
