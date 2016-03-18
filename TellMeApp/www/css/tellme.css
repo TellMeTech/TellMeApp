@@ -311,3 +311,27 @@
     height: 48px;
     vertical-align: middle;
 }
+/**MEMBER**/
+.tellme_member_photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+}
+.tellme_member_main_view {
+    width: 100%;
+    margin-top: 3em;
+    padding-top: 1em;
+    background-color: #f9f9f7;
+}
+.tellme_member_item_view {
+    width: 96%;
+    margin-top: 1em;
+    background-color: #FFFFFF;
+    margin-left:2%;
+    padding: 0.4em 0px 0.4em 0px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}
