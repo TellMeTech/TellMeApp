@@ -108,6 +108,10 @@
             .state('hotelSupermarket', { url: '/hotelSupermarket', templateUrl: 'app/check/hotel/supermarket.html', controller: 'hotelSupermarketControll' })
             //酒店商品
             .state('hotelProduct', { url: '/hotelProduct', templateUrl: 'app/check/hotel/product.html', controller: 'hotelProductControll' })
+            //酒店购物车
+            .state('hotelCart', { url: '/hotelCart', templateUrl: 'app/check/hotel/cart.html', controller: 'hotelCartControll' })
+            //酒店订单
+            .state('hotelOrder', { url: '/hotelOrder', templateUrl: 'app/check/hotel/order.html', controller: 'hotelOrderControll' })
             //菜单
             .state('menu', { url: '/menu', templateUrl: 'app/menu/menu.html', controller: 'menuControll' })
                 //服务指南

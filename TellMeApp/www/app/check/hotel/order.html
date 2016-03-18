@@ -1,0 +1,79 @@
+﻿<ion-view view-title="订单">
+    <div class="bar bar-header tellme_main_bg">
+        <div class="tellme_title_left tellme_fl" align="center"><span class="tellme_title_txt" ng-click="goBack()">返回</span></div>
+        <div class="tellme_title_center tellme_fl" align="center"><span class="tellme_title_txt">确认订单</span></div>
+        <div class="tellme_title_left tellme_fl" align="center"></div>
+        <div class="tellme_cl"></div>
+    </div>
+    <ion-content>
+        <div class="tellme_title_blank"></div>
+        <div style="width:96%; padding-left:2%;">
+            <div class="tellme_fl"><span class="tellme_title_txt">订单号：DD1405124562</span></div>
+            <div class="tellme_fr"><span class="tellme_title_txt">2016年3月18日</span></div>
+            <div class="tellme_cl"></div>
+        </div>
+        <div class="tellme_order_divider"></div>
+        <div>
+            <div class="tellme_cart_pro_img_view tellme_fl">
+                <img src="../../../images/temp/pro1.png" class="tellme_cart_pro_img" />
+            </div>
+            <div class="tellme_cart_pro_info_view tellme_fl">
+                <div><span class="tellme_title_txt">康师傅红烧牛肉面</span></div>
+                <div><span class="tellme_title_txt">￥4.5 × 1</span></div>
+            </div>
+            <div class="tellme_cl"></div>
+        </div>
+        <div style="width:96%; padding-left:2%;">
+            <div class="tellme_fl"><span class="tellme_title_txt">商品总额：</span></div>
+            <div class="tellme_fr"><span class="tellme_title_txt">￥4.5</span></div>
+            <div class="tellme_cl"></div>
+        </div>
+        <div class="tellme_order_divider"></div>
+        <div style="width:96%; padding-left:2%; margin-top: 1em; background-color:#f9f9f7;">
+            <div class="tellme_fl"><span class="tellme_title_txt">总计：</span></div>
+            <div class="tellme_fr"><span class="tellme_title_txt">￥4.5</span></div>
+            <div class="tellme_cl"></div>
+        </div>
+        <div style="padding-left:2%;">
+            <span class="tellme_title_txt">支付方式</span>
+        </div>
+        <div class="tellme_order_divider"></div>
+        <div class="list">
+
+            <label class="item item-radio">
+                <input type="radio" name="group">
+                <div class="item-content">
+                   <img src="../../../images/icon/iconpay.png" class="tellme_order_pay_img" /><span class="tellme_title_txt tellme_ml1e">支付宝</span>
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            <label class="item item-radio">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    <img src="../../../images/icon/iconpay.png" class="tellme_order_pay_img" /><span class="tellme_title_txt tellme_ml1e">微信</span>
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            <label class="item item-radio">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    <img src="../../../images/icon/iconpay.png" class="tellme_order_pay_img" /><span class="tellme_title_txt tellme_ml1e">银联</span>
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+        </div>
+
+        <div class="tellme_title_blank"></div>
+</ion-content>
+    <div class="bar bar-footer tellme_main_bg">
+        <div style="width: 100%;">
+            <div class="tellme_fr tellme_cart_pay" ng-click="pay()">
+                <span class="tellme_title_txt tellme_cart_pay_txt">结算</span>
+                <span class="tellme_title_txt tellme_cart_pay_txt tellme_ml1e">￥4.5</span>
+            </div>
+            <div class="tellme_cl"></div>
+        </div>
+
+    </div>
+</ion-view>

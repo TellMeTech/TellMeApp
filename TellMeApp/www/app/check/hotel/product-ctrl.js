@@ -5,8 +5,12 @@
             $ionicHistory.goBack();
         }
 
-        //$scope.search = function () {
-        //    $state.go('search');
-        //}
+        $scope.cart = function () {
+            $state.go('hotelCart');
+        }
+
+        $scope.order = function () {
+            $state.go('hotelOrder');
+        }
         
     }])

@@ -1,0 +1,46 @@
+﻿<ion-view view-title="购物车">
+    <div class="bar bar-header tellme_main_bg">
+        <div class="tellme_title_left tellme_fl" align="center"><span class="tellme_title_txt" ng-click="goBack()">返回</span></div>
+        <div class="tellme_title_center tellme_fl" align="center"><span class="tellme_title_txt">我的购物车</span></div>
+        <div class="tellme_title_left tellme_fl" align="center"></div>
+        <div class="tellme_cl"></div>
+    </div>
+    <ion-content>
+        <div class="tellme_title_blank"></div>
+        <div style="padding: 0.6em 0px 0.6em 0px;">
+            <div><img src="../../../images/temp/logo.png" class="tellme_cart_logo_img tellme_ml1e" /><span class="tellme_title_txt tellme_ml1e">奥亚酒店</span></div>
+        </div>
+        <div class="tellme_cart_pro_view tellme_main_bg">
+            <div class="tellme_cart_pro_img_view tellme_fl"><img src="../../../images/temp/pro1.png" class="tellme_cart_pro_img" /></div>
+            <div class="tellme_cart_pro_info_view tellme_fl">
+                <div><span class="tellme_title_txt">康师傅红烧牛肉面</span></div>
+                <div class="tellme_mt2e"><span class="tellme_title_txt">￥4.5</span><span class="tellme_cart_item_txt tellme_normal_txt tellme_ml1e" ng-click="add()">+</span><span class="tellme_cart_item_count_txt">{{count}}</span><span class="tellme_cart_item_txt tellme_normal_txt" ng-click="sub()">-</span>
+                    <img src="../../../images/icon/rollback.png" class="tellme_cart_item_clear_img tellme_ml1e" />
+                </div>
+            </div>
+            <div class="tellme_fl"></div>
+        </div>
+        <div class="tellme_product_view">
+            <div class="tellme_fl"><span class="tellme_title_txt">小计：</span></div>
+            <div class="tellme_fr"><span class="tellme_title_txt">￥4.5</span></div>
+            <div class="tellme_cl"></div>
+        </div>
+        <div class="tellme_cart_divider"></div>
+        <div class="tellme_title_blank"></div>
+        
+</ion-content>
+    <div class="bar bar-footer tellme_main_bg">
+        <div style="width: 100%;">
+            <div class="tellme_fl">
+                <div><span class="tellme_normal_txt">应付：￥4.5</span></div>
+                <div><span class="tellme_small_txt">优惠活动价格</span></div>
+            </div>
+            <div class="tellme_fr tellme_cart_pay" ng-click="order()">
+                <span class="tellme_title_txt tellme_cart_pay_txt">结算</span>
+                <span class="tellme_title_txt tellme_cart_pay_txt tellme_ml1e">￥4.5</span>
+            </div>
+            <div class="tellme_cl"></div>
+        </div>
+
+    </div>
+</ion-view>
